@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 2.8)
 
 project (dark_moon)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++15")
 
 set(HEADERS ${PROJECT_SOURCE_DIR}/include/Do-While.hpp)
 set(HEADERS ${PROJECT_SOURCE_DIR}/include/catch.hpp)
