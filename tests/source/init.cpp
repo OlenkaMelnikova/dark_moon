@@ -5,5 +5,5 @@ SCENARIO("Do-While Sum", "[Sum]") {
     
     float rv = Sum;
     
-	REQUIRE( rv == 12.0 );
+	REQUIRE( rv == 1.716666 );
 }
