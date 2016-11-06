@@ -1,24 +1,28 @@
 #include <iostream>
-#include "two-dimensional array.hpp"
+#include "Do-While.hpp"
 #include "stdafx.h"
-#include <tchar.h>
-#include <stdlib.h>
 #include <stdio.h>
+#include <math.h>
+#include <stdlib.h>
 using namespace std;
 
-int _tmain(int argc, _TCHAR* argv[])
+double factorial(int n)
 {
-	int **p;
-	int n = 4;
-	int m = 4;
-	int i, j;
-        
-    
+	if (n > 0)  return n*factorial(n - 1);
+	else
+		return 1;
+}	
+void main()
+{
+	double e = 1e-4;
+	double Sum = 0; 
+	double si; 
+	int n = 0; 
+	int znak = 1; 
+setlocale(LC_ALL,"rus");
+	
+	 cout<<"\nCумма равна: " << Sum;
+	 cout<<"\n ln(2): " << log(2.);
        
-    setlocale(LC_ALL,"rus");
-   
-    
-    cout<<"\nдвухмерный массив: " << p[i][j];
-
  system("pause");
 }
